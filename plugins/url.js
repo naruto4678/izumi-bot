@@ -7,7 +7,7 @@ const crypto = require("crypto");
 izumi({
   pattern: 'url ?(.*)',
   fromMe: mode,
-  desc: 'Upload files to Catbox.moe (fallback to personal CDN)',
+  desc: 'Upload files to Catbox.moe (https://files.catbox.moe/ldf47m.png)',
   type: 'generator'
 }, async (m, text) => {
   if (!m.quoted || !(m.quoted.image || m.quoted.video || m.quoted.audio)) {
